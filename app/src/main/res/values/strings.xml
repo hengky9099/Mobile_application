@@ -2,7 +2,7 @@
     <string name="app_name">Mobile_application</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Settings</string>
     <string name="pt_lapiso">PT.LAPISO</string>
     <string name="your_last_clocking_was_30_minutes_ago">Your last clocking was 30 minutes ago</string>
     <string name="working_hours">Working Hours</string>
@@ -23,4 +23,9 @@
     <string name="todo2">TODO</string>
     <string name="overtime">Overtime</string>
     <string name="todo3">TODO</string>
+    <string name="profile">PROFILE</string>
+    <string name="personal_data">Personal Data</string>
+    <string name="update_password">Update Password</string>
+    <string name="logout">Logout</string>
+    <string name="avatar">AVATAR</string>
 </resources>
