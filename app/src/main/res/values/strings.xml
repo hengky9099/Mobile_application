@@ -28,4 +28,8 @@
     <string name="update_password">Update Password</string>
     <string name="logout">Logout</string>
     <string name="avatar">AVATAR</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="company">Company</string>
+    <string name="division">Division</string>
+    <string name="profile_picture">Profile Picture</string>
 </resources>
