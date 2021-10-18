@@ -95,7 +95,6 @@
                 android:paddingTop="6dp"
                 android:text="202110100001"
                 android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -107,7 +106,6 @@
                 android:padding="3dp"
                 android:text="Restore Database"
                 android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -118,8 +116,7 @@
                 android:maxLines="4"
                 android:padding="3dp"
                 android:text="01 October 2021"
-                android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color" />
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textview33"
@@ -129,8 +126,7 @@
                 android:maxLines="4"
                 android:padding="3dp"
                 android:text="15:00 - 17:00"
-                android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color" />
+                android:textColor="@color/black" />
         </LinearLayout>
     </TableRow>
 
@@ -157,7 +153,6 @@
                 android:paddingTop="6dp"
                 android:text="202110100002"
                 android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -169,7 +164,6 @@
                 android:padding="3dp"
                 android:text="Bug Fixing"
                 android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color"
                 android:textStyle="bold" />
 
             <TextView
@@ -180,8 +174,7 @@
                 android:maxLines="4"
                 android:padding="3dp"
                 android:text="01 October 2021"
-                android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color" />
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textview37"
@@ -191,8 +184,7 @@
                 android:maxLines="4"
                 android:padding="3dp"
                 android:text="17:00 - 20:00"
-                android:textColor="@color/black"
-                android:textColorHint="@color/hint_text_color" />
+                android:textColor="@color/black"/>
         </LinearLayout>
     </TableRow>
 
@@ -206,7 +198,6 @@
         android:text="+"
         android:textAlignment="center"
         android:textSize="34sp"
-        android:textsize="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
