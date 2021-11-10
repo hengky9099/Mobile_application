@@ -34,20 +34,19 @@
         android:layout_width="256dp"
         android:layout_height="30dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="8dp"
         android:text="Task"
-        android:textStyle="bold"
         android:textColor="#000000"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="50dp"
         android:layout_height="53dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:backgroundTint="@color/white"
         app:icon="@drawable/icons8_chevron_left_30"
         app:iconPadding="0dp"
@@ -189,7 +188,7 @@
     </TableRow>
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnAddNewTask"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:layout_marginEnd="24dp"
