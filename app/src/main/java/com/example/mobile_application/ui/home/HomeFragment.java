@@ -6,20 +6,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.mobile_application.MainActivity;
 import com.example.mobile_application.R;
 import com.example.mobile_application.databinding.FragmentHomeBinding;
 import com.example.mobile_application.ui.dashboard.DashboardFragment;
 import com.example.mobile_application.ui.leave.LeaveListFragment;
-import com.example.mobile_application.ui.leave.cuti_detail_Fragment;
+import com.example.mobile_application.ui.overtime.fragment_ot;
 import com.example.mobile_application.ui.task.TaskLogFragment;
 
 public class HomeFragment extends Fragment {
@@ -51,19 +47,19 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        ImageButton btnOpenNewLeavePermit = (ImageButton) root.findViewById(R.id.btnNewLeave);
-        btnOpenNewLeavePermit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new cuti_detail_Fragment()).addToBackStack(null).commit();
-            }
-        });
-
-        ImageButton btnOpenTaskLog = (ImageButton) root.findViewById(R.id.btnOpenTaskLog);
-        btnOpenTaskLog.setOnClickListener(new View.OnClickListener() {
+        ImageButton btnTaskLog = (ImageButton) root.findViewById(R.id.btnTaskLog);
+        btnTaskLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new TaskLogFragment()).addToBackStack(null).commit();
+            }
+        });
+
+        ImageButton btnOpenOT = (ImageButton) root.findViewById(R.id.btnOpenOT);
+        btnOpenOT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new fragment_ot()).addToBackStack(null).commit();
             }
         });
 

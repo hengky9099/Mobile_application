@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/purple_500"
     tools:context=".ui.settings.SettingsFragment">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -20,35 +21,14 @@
         android:id="@+id/btnLogOut"
         android:layout_width="413dp"
         android:layout_height="48dp"
+        android:backgroundTint="@android:color/white"
         android:text="@string/logout"
+        android:textColor="#000000"
         app:icon="@android:drawable/ic_lock_power_off"
         app:iconPadding="0dp"
-        app:iconTint="#FFF"
+        app:iconTint="@android:color/holo_red_dark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider26" />
-
-    <View
-        android:id="@+id/divider26"
-        android:layout_width="409dp"
-        android:layout_height="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="1dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUpdatePassword" />
-
-    <View
-        android:id="@+id/divider25"
-        android:layout_width="409dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnUpdatePassword" />
 
@@ -56,10 +36,13 @@
         android:id="@+id/btnUpdatePassword"
         android:layout_width="413dp"
         android:layout_height="48dp"
+        android:backgroundTint="@android:color/white"
         android:text="@string/update_password"
-        app:icon="@drawable/reset_password_removebg_preview"
+        android:textColor="@android:color/black"
+        app:icon="@drawable/icons8_settings_30"
         app:iconPadding="0dp"
         app:iconSize="30dp"
+        app:iconTint="@color/purple_500"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,14 +52,17 @@
         android:id="@+id/btnOpenPersonalData"
         android:layout_width="413dp"
         android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/white"
         android:text="@string/personal_data"
-        app:icon="@drawable/user_icon"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        app:icon="@drawable/icons8_user_30"
         app:iconPadding="0dp"
         app:iconSize="30dp"
-        app:iconTint="@android:color/white"
+        app:iconTint="@color/purple_500"
         app:iconTintMode="src_atop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider24" />
 
@@ -121,11 +107,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:contentDescription="@string/avatar"
+        android:src="@drawable/user_icon"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="ImageContrastCheck"
-        android:src="@drawable/user_icon" />
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,33 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".ui.settings.PersonalDataFragment" >
 
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="345dp"
-        android:layout_height="18dp"
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="346dp"
+        android:layout_height="48dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/profile_picture"
-        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#AAA8A8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/textView25"
         android:layout_width="345dp"
         android:layout_height="18dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/division"
+        android:layout_marginTop="20dp"
+        android:text="@string/company"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword6" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword5" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="345dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/birth_date"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
 
     <EditText
         android:id="@+id/editTextTextPassword7"
         android:layout_width="346dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="#AAA8A8"
@@ -41,11 +55,34 @@
         app:layout_constraintTop_toBottomOf="@+id/textView26"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Change"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="345dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
     <EditText
         android:id="@+id/editTextTextPassword6"
         android:layout_width="346dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="#AAA8A8"
@@ -54,49 +91,38 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/textView26"
         android:layout_width="345dp"
         android:layout_height="18dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/company"
+        android:layout_marginTop="20dp"
+        android:text="@string/division"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword5" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword6" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="345dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/profile_picture"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword7" />
 
     <EditText
         android:id="@+id/editTextTextPassword5"
         android:layout_width="346dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="#AAA8A8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="345dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/birth_date"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword4"
-        android:layout_width="346dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:textColor="#AAA8A8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -112,32 +138,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="345dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="16dp"
-        android:text="Name"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Change"
-        app:icon="@android:drawable/ic_input_add"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
     <ImageButton
         android:id="@+id/imageButton7"
         android:layout_width="28dp"
         android:layout_height="27dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:src="@drawable/icons8_chevron_left_30"
         app:layout_constraintStart_toStartOf="parent"

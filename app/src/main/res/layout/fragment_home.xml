@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:text="@string/pt_lapiso"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -285,8 +286,9 @@
         android:textColor="#000000"
         android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/divider3"
-        app:layout_constraintTop_toBottomOf="@+id/btnNewLeave"
-        tools:ignore="MissingConstraints,SmallSp" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTaskLog"
+        tools:ignore="MissingConstraints,SmallSp"
+        tools:text="New Task" />
 
     <View
         android:id="@+id/divider2"
@@ -295,7 +297,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="56dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintStart_toEndOf="@+id/btnNewLeave"
+        app:layout_constraintStart_toEndOf="@+id/btnTaskLog"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
@@ -347,12 +349,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
-        android:text="Task Log"
+        android:text="@string/overtime"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/divider2"
-        app:layout_constraintTop_toBottomOf="@+id/btnOpenTaskLog"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenOT"
         tools:ignore="MissingConstraints,SmallSp" />
 
     <ImageButton
@@ -370,7 +372,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/btnNewLeave"
+        android:id="@+id/btnTaskLog"
         android:layout_width="69dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"
@@ -384,7 +386,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/btnOpenTaskLog"
+        android:id="@+id/btnOpenOT"
         android:layout_width="69dp"
         android:layout_height="60dp"
         android:layout_marginStart="24dp"

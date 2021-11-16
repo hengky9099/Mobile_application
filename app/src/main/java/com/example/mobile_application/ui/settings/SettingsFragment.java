@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.mobile_application.R;
 import com.example.mobile_application.databinding.FragmentSettingsBinding;
 import com.example.mobile_application.ui.dashboard.DashboardFragment;
+import com.example.mobile_application.ui.login.LoginFragment;
 
 public class SettingsFragment extends Fragment {
 
@@ -32,6 +33,14 @@ public class SettingsFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new PersonalDataFragment()).addToBackStack(null).commit();
+            }
+        });
+
+        Button btnLogOut = (Button) root.findViewById(R.id.btnLogOut);
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new LoginFragment()).addToBackStack(null).commit();
             }
         });
 
