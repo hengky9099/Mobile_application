@@ -21,9 +21,11 @@
         android:id="@+id/btnLogOut"
         android:layout_width="413dp"
         android:layout_height="48dp"
-        android:backgroundTint="@android:color/white"
+        android:layout_marginTop="4dp"
+        android:background="@color/orange"
+        android:backgroundTint="@color/orange"
         android:text="@string/logout"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         app:icon="@android:drawable/ic_lock_power_off"
         app:iconPadding="0dp"
         app:iconTint="@android:color/holo_red_dark"
@@ -36,15 +38,16 @@
         android:id="@+id/btnUpdatePassword"
         android:layout_width="413dp"
         android:layout_height="48dp"
-        android:backgroundTint="@android:color/white"
+        android:layout_marginTop="4dp"
+        android:background="@color/orange"
+        android:backgroundTint="@android:color/orange"
         android:text="@string/update_password"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         app:icon="@drawable/icons8_settings_30"
         app:iconPadding="0dp"
         app:iconSize="30dp"
         app:iconTint="@color/purple_500"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnOpenPersonalData" />
 
@@ -53,16 +56,18 @@
         android:layout_width="413dp"
         android:layout_height="48dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@android:color/white"
+        android:background="@color/orange"
+        android:backgroundTint="@android:color/orange"
         android:text="@string/personal_data"
         android:textAlignment="gravity"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:icon="@drawable/icons8_user_30"
         app:iconPadding="0dp"
         app:iconSize="30dp"
         app:iconTint="@color/purple_500"
         app:iconTintMode="src_atop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider24" />
 
@@ -113,5 +118,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ImageContrastCheck" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="264dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

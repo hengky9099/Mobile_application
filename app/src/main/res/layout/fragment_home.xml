@@ -120,7 +120,7 @@
         android:layout_width="93dp"
         android:layout_height="29dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/custom_button"
+        android:background="@color/orange"
         android:backgroundTint="#F2600F"
         android:text="@string/clocking"
         android:textColor="@color/white"
@@ -369,7 +369,8 @@
         android:src="@drawable/ic_leave_homepage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:src="@drawable/file" />
 
     <ImageButton
         android:id="@+id/btnTaskLog"
@@ -380,7 +381,7 @@
         android:backgroundTint="@color/white"
         android:padding="0dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/ic_newleave_homepage"
+        android:src="@drawable/calendar"
         app:layout_constraintStart_toEndOf="@+id/divider3"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -394,7 +395,7 @@
         android:backgroundTint="@color/white"
         android:padding="0dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/ic_ot_homepage"
+        android:src="@drawable/schedule"
         app:layout_constraintStart_toEndOf="@+id/divider2"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="SpeakableTextPresentCheck" />

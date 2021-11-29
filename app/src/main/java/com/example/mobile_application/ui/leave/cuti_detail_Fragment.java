@@ -28,6 +28,7 @@ public class cuti_detail_Fragment extends Fragment {
         return inflater.inflate(R.layout.fragment_izin_cuti, container, false);
     }
 
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
