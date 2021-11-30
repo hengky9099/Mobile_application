@@ -1,5 +1,6 @@
 package com.example.mobile_application.ui.login;
 
+import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
@@ -11,8 +12,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.mobile_application.R;
+import com.example.mobile_application.ui.home.HomeFragment;
 
 public class fragment_register extends Fragment {
 
@@ -25,7 +28,19 @@ public class fragment_register extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_register_fragment, container, false);
+        View v = inflater.inflate(R.layout.fragment_register, container, false);
+
+        // button dari fragmen register ke fragment login
+        Button btnLogin = (Button) v.findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager manager = getFragmentManager();
+                manager.beginTransaction().replace(R.id.nav_host_fragment_activity_main, new LoginFragment()).addToBackStack(null).commit();
+            }
+        });
+
+        return v;
     }
 
     @Override

@@ -15,6 +15,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.mobile_application.R;
+import com.example.mobile_application.ui.home.HomeFragment;
+import com.example.mobile_application.ui.overtime.fragment_laporan_ot;
 
 public class LoginFragment extends Fragment {
 
@@ -29,6 +31,16 @@ public class LoginFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_login, container, false);
+
+        // button dari fragmen login ke fragment home
+        Button btnLogOn = (Button) v.findViewById(R.id.btnLogOn);
+        btnLogOn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager manager = getFragmentManager();
+                manager.beginTransaction().replace(R.id.nav_host_fragment_activity_main, new HomeFragment()).addToBackStack(null).commit();
+            }
+        });
 
 /*        Button btnLog = (Button) v.findViewById(R.id.btnLogOn);
         btnLog.setOnClickListener(new View.OnClickListener() {

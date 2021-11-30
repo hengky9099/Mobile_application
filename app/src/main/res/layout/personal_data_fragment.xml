@@ -8,7 +8,7 @@
     tools:context=".ui.settings.PersonalDataFragment" >
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/PersonalDataBtn"
         android:layout_width="97dp"
         android:layout_height="44dp"
         android:layout_marginBottom="32dp"
@@ -153,10 +153,10 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+        app:layout_constraintTop_toBottomOf="@+id/ImgBtnPersonalData" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/ImgBtnPersonalData"
         android:layout_width="28dp"
         android:layout_height="27dp"
         android:layout_marginStart="16dp"

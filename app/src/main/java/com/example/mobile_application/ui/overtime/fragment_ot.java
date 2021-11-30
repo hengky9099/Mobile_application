@@ -14,8 +14,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.mobile_application.R;
+import com.example.mobile_application.ui.home.HomeFragment;
+import com.example.mobile_application.ui.leave.LeaveListFragment;
 import com.example.mobile_application.ui.task.TaskDetailFragment;
 
 public class fragment_ot extends Fragment {
@@ -29,7 +32,9 @@ public class fragment_ot extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.overtime_fragment, container, false);
+        View v = inflater.inflate(R.layout.fragment_ot, container, false);
+
+        // button dari fragment ot ke laporan ot
         Button BtnFragmentLaporanOT = (Button) v.findViewById(R.id.btnAddNewTask);
         BtnFragmentLaporanOT.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +43,16 @@ public class fragment_ot extends Fragment {
                 manager.beginTransaction().replace(R.id.nav_host_fragment_activity_main, new fragment_laporan_ot()).addToBackStack(null).commit();
             }
         });
+
+        // Button back ke home page fragment dari fragment ot
+        ImageButton imageButton8 = (ImageButton) v.findViewById(R.id.imageButton8);
+        imageButton8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new HomeFragment()).addToBackStack(null).commit();
+            }
+        });
+
         return v;
     }
 

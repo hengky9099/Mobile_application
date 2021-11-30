@@ -16,13 +16,13 @@
         <entry key="..\:/Mobile_application/app/src/main/res/drawable/ic_work_focused.xml" value="0.2328125" />
         <entry key="..\:/Mobile_application/app/src/main/res/drawable/kotak.xml" value="0.22395833333333334" />
         <entry key="..\:/Mobile_application/app/src/main/res/drawable/roundedbutton.xml" value="0.403125" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/activity_main.xml" value="0.67" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_dashboard.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_izin_cuti.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_izincuti.xml" value="0.5" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_cuti.xml" value="0.5" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_ot.xml" value="0.33" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_ot.xml" value="0.5" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_login.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_ot.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_password.xml" value="0.5" />
