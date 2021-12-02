@@ -57,8 +57,8 @@
 
     <Button
         android:id="@+id/btnOpenPersonalData"
-        android:layout_width="344dp"
-        android:layout_height="48dp"
+        android:layout_width="338dp"
+        android:layout_height="47dp"
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
         android:background="@color/orange"
