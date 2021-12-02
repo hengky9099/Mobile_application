@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.mobile_application.R;
 import com.example.mobile_application.ui.home.HomeFragment;
@@ -37,6 +38,15 @@ public class fragment_register extends Fragment {
             public void onClick(View v) {
                 FragmentManager manager = getFragmentManager();
                 manager.beginTransaction().replace(R.id.nav_host_fragment_activity_main, new LoginFragment()).addToBackStack(null).commit();
+            }
+        });
+
+        // Button teks click here ke fragment login dari fragment register
+        TextView textView79 = v.findViewById(R.id.textView79);
+        textView79.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new LoginFragment()).addToBackStack(null).commit();
             }
         });
 

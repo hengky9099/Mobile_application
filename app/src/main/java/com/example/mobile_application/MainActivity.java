@@ -13,6 +13,8 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.mobile_application.databinding.ActivityMainBinding;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;

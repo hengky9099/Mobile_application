@@ -21,9 +21,9 @@
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_izin_cuti.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_izincuti.xml" value="0.5" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_cuti.xml" value="0.5" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_ot.xml" value="0.5" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_cuti.xml" value="0.33" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_laporan_ot.xml" value="0.33" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_login.xml" value="0.5" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_ot.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_password.xml" value="0.5" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_register.xml" value="0.33" />
@@ -32,12 +32,12 @@
         <entry key="..\:/Mobile_application/app/src/main/res/layout/fragment_task_detail.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/laporan_ot.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/laporan_overtime_fragment.xml" value="0.38697916666666665" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/leave_list_fragment.xml" value="0.5" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/leave_list_fragment.xml" value="0.33" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/login_activity.xml" value="0.38697916666666665" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/overtime_fragment.xml" value="0.38697916666666665" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/personal_data_fragment.xml" value="0.25" />
         <entry key="..\:/Mobile_application/app/src/main/res/layout/task_detail_fragment.xml" value="0.33" />
-        <entry key="..\:/Mobile_application/app/src/main/res/layout/task_log_fragment.xml" value="0.5" />
+        <entry key="..\:/Mobile_application/app/src/main/res/layout/task_log_fragment.xml" value="0.33" />
       </map>
     </option>
   </component>

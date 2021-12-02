@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
                     .commitNow();
         }
 
+
 /*        button = (Button) findViewById(R.id.btnLogOn);
         button.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity.class);

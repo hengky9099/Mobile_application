@@ -13,10 +13,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.example.mobile_application.R;
 import com.example.mobile_application.ui.home.HomeFragment;
 import com.example.mobile_application.ui.overtime.fragment_laporan_ot;
+import com.example.mobile_application.ui.settings.SettingsFragment;
 
 public class LoginFragment extends Fragment {
 
@@ -39,6 +42,15 @@ public class LoginFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager manager = getFragmentManager();
                 manager.beginTransaction().replace(R.id.nav_host_fragment_activity_main, new HomeFragment()).addToBackStack(null).commit();
+            }
+        });
+
+        // Button teks click here ke fragment register dari fragment login
+        TextView textView80 = v.findViewById(R.id.textView80);
+        textView80.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new fragment_register()).addToBackStack(null).commit();
             }
         });
 

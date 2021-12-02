@@ -28,8 +28,8 @@ public class SettingsFragment extends Fragment {
         binding = FragmentSettingsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        Button btnProfile = (Button) root.findViewById(R.id.btnOpenPersonalData);
-        btnProfile.setOnClickListener(new View.OnClickListener() {
+        Button btnOpenPersonalData = (Button) root.findViewById(R.id.btnOpenPersonalData);
+        btnOpenPersonalData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new PersonalDataFragment()).addToBackStack(null).commit();
@@ -37,7 +37,7 @@ public class SettingsFragment extends Fragment {
         });
 
         Button btnLogOut = (Button) root.findViewById(R.id.btnLogOut);
-        btnProfile.setOnClickListener(new View.OnClickListener() {
+        btnLogOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_activity_main, new LoginFragment()).addToBackStack(null).commit();
