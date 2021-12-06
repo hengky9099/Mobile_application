@@ -35,7 +35,7 @@ public class fragment_ot extends Fragment {
         View v = inflater.inflate(R.layout.fragment_ot, container, false);
 
         // button dari fragment ot ke laporan ot
-        Button BtnFragmentLaporanOT = (Button) v.findViewById(R.id.btnAddNewTask);
+        Button BtnFragmentLaporanOT = (Button) v.findViewById(R.id.BtnFragmentLaporanOT);
         BtnFragmentLaporanOT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
