@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Clocking"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="Shift 08.00 - 17.00"
         android:textColor="#000000"
-        android:textSize="14sp"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView48" />
@@ -47,6 +47,7 @@
         android:layout_marginTop="20dp"
         android:text="Clocking List"
         android:textColor="#000000"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,6 +84,7 @@
         android:layout_marginTop="32dp"
         android:text="Start Time : 07.59"
         android:textColor="#000000"
+        android:textSize="18dp"
         app:layout_constraintEnd_toStartOf="@+id/textView54"
         app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,11 +94,12 @@
         android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="56dp"
         android:text="Start Time : 07.59"
         android:textColor="#000000"
+        android:textSize="18dp"
         app:layout_constraintEnd_toStartOf="@+id/textView59"
-        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView52" />
 
@@ -106,9 +109,9 @@
         android:layout_height="wrap_content"
         android:text="12 Aug 2021"
         android:textColor="#000000"
-        android:textSize="10sp"
+        android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView54" />
 
@@ -118,7 +121,7 @@
         android:layout_height="wrap_content"
         android:text="11 Aug 2021"
         android:textColor="#000000"
-        android:textSize="10sp"
+        android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.943"
         app:layout_constraintStart_toStartOf="parent"
@@ -132,7 +135,7 @@
         android:layout_marginEnd="28dp"
         android:text="Ongoing"
         android:textColor="#FF5722"
-        android:textSize="10sp"
+        android:textSize="13dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
@@ -140,11 +143,11 @@
         android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="24dp"
         android:text="Finished"
         android:textColor="#4CAF50"
-        android:textSize="10sp"
+        android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
@@ -156,6 +159,7 @@
         android:layout_marginEnd="76dp"
         android:text="Finish Time : 17.59"
         android:textColor="#000000"
+        android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
@@ -163,10 +167,11 @@
         android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="88dp"
         android:text="Finish Time : 17.59"
         android:textColor="#000000"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
 

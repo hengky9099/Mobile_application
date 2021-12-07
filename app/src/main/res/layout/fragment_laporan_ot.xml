@@ -47,40 +47,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.254"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29" />
-
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:text="Start Time"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/textView31"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate4" />
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="60dp"
         android:text="Attachment"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/textView31"
-        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -88,12 +77,12 @@
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="144dp"
         android:text="Note"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
@@ -101,32 +90,32 @@
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="156dp"
         android:text="End Time"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate4" />
 
     <EditText
         android:id="@+id/editTextTextPassword8"
         android:layout_width="172dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
     <EditText
         android:id="@+id/editTextTextPassword9"
         android:layout_width="172dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="#000000"
@@ -152,7 +141,7 @@
     <EditText
         android:id="@+id/editTextTextPassword10"
         android:layout_width="383dp"
-        android:layout_height="22dp"
+        android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPassword"
@@ -172,5 +161,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate4"
+        android:layout_width="367dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
