@@ -189,15 +189,15 @@
         android:id="@+id/btnAddNewTask"
         android:layout_width="84dp"
         android:layout_height="39dp"
-        android:layout_marginBottom="16dp"
-        android:text="Submit"
+        android:layout_marginTop="32dp"
         android:background="@color/orange"
+        android:text="Submit"
         android:textColor="@color/white"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.952"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
