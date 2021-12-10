@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -14,8 +15,8 @@
         android:drawableStart="@drawable/custom_account_icon"
         android:drawablePadding="12dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
         android:hint="Username"
+        android:inputType="textEmailAddress"
         android:textColor="#717171"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword11"
@@ -66,8 +67,8 @@
         android:drawableStart="@drawable/custom_work_icon"
         android:drawablePadding="12dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Company Code"
+        android:inputType="textPersonName"
         android:textColor="#7C7B7B"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,8 +82,10 @@
         android:layout_height="221dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271"
         app:srcCompat="@drawable/_090176" />
 
     <Button
@@ -90,8 +93,8 @@
         android:layout_width="232dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
-        android:text="Register"
         android:background="@color/orange"
+        android:text="Register"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

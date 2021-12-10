@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".ui.task.TaskLogFragment">
 
     <View
@@ -101,7 +102,7 @@
                 android:maxLines="4"
                 android:padding="3dp"
                 android:text="01 October 2021"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textview33"

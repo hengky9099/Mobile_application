@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="-3dp">
 
@@ -129,8 +130,8 @@
         android:layout_width="76dp"
         android:layout_height="36dp"
         android:layout_marginTop="8dp"
-        android:text="add"
         android:background="@color/orange"
+        android:text="add"
         android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"

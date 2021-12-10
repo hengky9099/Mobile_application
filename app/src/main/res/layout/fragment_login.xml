@@ -5,7 +5,8 @@
     android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.LoginFragment" >
+    android:background="@color/white"
+    tools:context=".ui.login.LoginFragment">
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -58,8 +59,8 @@
         android:layout_width="232dp"
         android:layout_height="48dp"
         android:layout_marginTop="32dp"
-        android:text="Login"
         android:background="@color/orange"
+        android:text="Login"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -82,8 +83,8 @@
         android:id="@+id/textView80"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
         android:text="Register here"
         android:textColor="#0000FF"
         app:layout_constraintEnd_toEndOf="parent"
