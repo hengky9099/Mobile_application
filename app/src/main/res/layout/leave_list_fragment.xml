@@ -10,10 +10,10 @@
 
     <Button
         android:id="@+id/btnAddNewLeave"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
         android:background="@drawable/roundedbutton"
         android:text="+"
         android:textAlignment="center"

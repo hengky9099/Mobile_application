@@ -177,9 +177,9 @@
 
     <Button
         android:id="@+id/btnAddNewTask"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/roundedbutton"
         android:text="+"

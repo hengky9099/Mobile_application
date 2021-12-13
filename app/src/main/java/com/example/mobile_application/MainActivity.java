@@ -24,10 +24,10 @@ import com.example.mobile_application.databinding.ActivityMainBinding;
 import java.util.Objects;
 
 // implements OnMapReadyCallback
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private ActivityMainBinding binding;
-//    GoogleMap map;
+    GoogleMap map;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,18 +48,20 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
 
-//        // google maps
+        // google maps
+//        setContentView(R.layout.fragment_dashboard);
 //        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-//        assert mapFragment != null;
-//        mapFragment.getMapAsync(this);
+//        mapFragment.getMapAsync((OnMapReadyCallback) this);
+
     }
 
-//    @Override
-//    public void onMapReady(@NonNull GoogleMap googleMap) {
-//        map = googleMap;
-//
-//        LatLng Batam = new LatLng(1.130078, 104.052917);
-//        map.addMarker(new MarkerOptions().position(Batam).title("Batam"));
-//        map.moveCamera(CameraUpdateFactory.newLatLng(Batam));
-//    }
+    @Override
+    public void onMapReady(@NonNull GoogleMap googleMap) {
+        map = googleMap;
+
+        LatLng Batam = new LatLng(1.107668918803392, 104.08887146897837);
+        map.addMarker(new MarkerOptions().position(Batam).title("Batam"));
+        map.moveCamera(CameraUpdateFactory.newLatLng(Batam));
+    }
+
 }
