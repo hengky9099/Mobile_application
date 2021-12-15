@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         Objects.requireNonNull(getSupportActionBar()).hide();
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
         BottomNavigationView navView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
