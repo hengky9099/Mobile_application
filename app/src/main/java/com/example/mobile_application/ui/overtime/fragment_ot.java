@@ -3,7 +3,6 @@ package com.example.mobile_application.ui.overtime;
 import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.ViewModelProvider;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -18,8 +17,6 @@ import android.widget.ImageButton;
 
 import com.example.mobile_application.R;
 import com.example.mobile_application.ui.home.HomeFragment;
-import com.example.mobile_application.ui.leave.LeaveListFragment;
-import com.example.mobile_application.ui.task.TaskDetailFragment;
 
 public class fragment_ot extends Fragment {
 
@@ -35,7 +32,7 @@ public class fragment_ot extends Fragment {
         View v = inflater.inflate(R.layout.fragment_ot, container, false);
 
         // button dari fragment ot ke laporan ot
-        Button BtnFragmentLaporanOT = (Button) v.findViewById(R.id.BtnFragmentLaporanOT);
+        Button BtnFragmentLaporanOT = (Button) v.findViewById(R.id.btnAddNewLeave);
         BtnFragmentLaporanOT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,7 +42,7 @@ public class fragment_ot extends Fragment {
         });
 
         // Button back ke home page fragment dari fragment ot
-        ImageButton imageButton8 = (ImageButton) v.findViewById(R.id.imageButton8);
+        ImageButton imageButton8 = (ImageButton) v.findViewById(R.id.imageButton11);
         imageButton8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -62,10 +62,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/BtnFragmentLaporanOT"
+        android:id="@+id/btnAddNewLeave"
         android:layout_width="66dp"
         android:layout_height="66dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/roundedbutton"
         android:text="+"
@@ -77,34 +77,42 @@
 
     <TextView
         android:id="@+id/textView65"
-        android:layout_width="336dp"
-        android:layout_height="61dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/kotak"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        app:layout_constraintHeight_percent="0.06"
+        app:layout_constraintWidth_percent="0.8"/>
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="357dp"
-        android:layout_height="116dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginTop="36dp"
         android:background="@drawable/kotak"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.13"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider14" />
+        app:layout_constraintTop_toBottomOf="@+id/divider14"
+        app:layout_constraintWidth_percent="0.85" />
 
     <TextView
         android:id="@+id/textView73"
-        android:layout_width="357dp"
-        android:layout_height="116dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/kotak"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.13"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+        app:layout_constraintTop_toBottomOf="@+id/textView67"
+        app:layout_constraintWidth_percent="0.85" />
 
     <TextView
         android:id="@+id/textView66"
@@ -118,7 +126,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView65" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButton11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -193,8 +201,7 @@
         android:id="@+id/textView76"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginStart="52dp"
         android:text="06 Aug 2021"
         android:textColor="#000000"
         android:textSize="12sp"
@@ -205,7 +212,7 @@
         android:id="@+id/textView77"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="52dp"
         android:text="17.00 - 21.00"
         android:textColor="#000000"
         android:textSize="12sp"
