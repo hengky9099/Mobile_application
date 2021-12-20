@@ -10,7 +10,7 @@
         android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:text="New Leave Permit"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -52,39 +52,35 @@
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="8dp"
         android:text="To"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toEndOf="@+id/textView38"
-        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate3" />
 
     <Button
         android:id="@+id/btnAddNewTask"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="32dp"
         android:background="@color/orange"
         android:text="Submit"
         android:textColor="@color/white"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.05"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
-        app:layout_constraintVertical_bias="1.0"
         app:layout_constraintWidth_percent="0.2" />
 
     <EditText
         android:id="@+id/editTextDate3"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,7 +107,6 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="4dp"
         android:ems="17"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,33 +120,32 @@
         android:id="@+id/textView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="8dp"
         android:text="Leave Date"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="8dp"
         android:text="From"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate3" />
 
     <EditText
         android:id="@+id/editTextTime2"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +159,6 @@
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="4dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
@@ -180,7 +173,6 @@
         android:id="@+id/editTextTime"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="parent"
@@ -194,7 +186,7 @@
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Attachment"
         android:textColor="#000000"
         android:textSize="12sp"
@@ -207,14 +199,14 @@
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="8dp"
         android:text="Note"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button5"
@@ -236,13 +228,13 @@
         android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="8dp"
         android:text="Leave Type"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
