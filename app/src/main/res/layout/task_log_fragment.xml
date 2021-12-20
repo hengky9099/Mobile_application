@@ -88,15 +88,14 @@
         android:layout_width="66dp"
         android:layout_height="66dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="81dp"
         android:background="@drawable/roundedbutton"
         android:text="+"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView97"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton9"
